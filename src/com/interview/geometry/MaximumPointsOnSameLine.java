@@ -50,7 +50,7 @@ public class MaximumPointsOnSameLine {
     public int maxPoints(Point[] points) {
         int result = 0;
         for (int i = 0; i < points.length; i++) {
-            Map<Pair, Integer> map = new HashMap<>();
+            Map<Pair, Integer> map = new HashMap<Pair, Integer>();
             int verticalLine = 1;
             int onePointMax = 1;
             int samePoint = 0;
